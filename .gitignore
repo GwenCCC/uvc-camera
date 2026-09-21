@@ -9,11 +9,14 @@ Makefile
 Makefile.*
 *.pro.user
 *.pro.user.*
-uvc-camera/uvc-camera
+qt/uvc-camera/uvc-camera
 
 # Debian packaging leftovers
-debian/*.debhelper
-debian/*.substvars
-debian/.debhelper/
-debian/uvc-camera*/
-obj-*/
+**/debian/files
+**/debian/*.debhelper
+**/debian/*.substvars
+**/debian/.debhelper/
+**/debian/uvc-camera*/
+
+# qmake shadow-build directories
+**/obj-*/
