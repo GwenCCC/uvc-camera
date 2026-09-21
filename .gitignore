@@ -1,0 +1,19 @@
+# Build artefacts
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.*
+*.pro.user
+*.pro.user.*
+uvc-camera/uvc-camera
+
+# Debian packaging leftovers
+debian/*.debhelper
+debian/*.substvars
+debian/.debhelper/
+debian/uvc-camera*/
+obj-*/
